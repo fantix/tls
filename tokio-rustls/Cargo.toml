@@ -12,6 +12,7 @@ categories = ["asynchronous", "cryptography", "network-programming"]
 edition = "2018"
 
 [dependencies]
+bytes = "1"
 tokio = "1.0"
 rustls = { version = "0.20", default-features = false }
 webpki = "0.22"
